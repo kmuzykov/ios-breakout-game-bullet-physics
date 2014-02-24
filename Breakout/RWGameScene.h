@@ -1,0 +1,15 @@
+//
+//  RWGameScene.h
+//  Breakout
+//
+//  Created by Main Account on 8/29/13.
+//  Copyright (c) 2013 Razeware LLC. All rights reserved.
+//
+
+#import "RWNode.h"
+
+@interface RWGameScene : RWNode
+
+- (instancetype)initWithShader:(GLKBaseEffect *)shader;
+
+@end
